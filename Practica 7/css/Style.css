@@ -1,0 +1,85 @@
+*
+{
+margin:0;
+padding:0;	
+	
+}
+body
+{
+background-color:red;
+font-family:Segoe UI Light, Calibri;
+font-size=12;
+}
+h1
+{
+font-family:Calibri,Segoe UI Light;
+font-size=16px;
+color:blue;	
+}
+table
+{
+width:100%;	
+	
+}
+td{
+	
+	vertical-align:top;
+}
+ul{
+	list-style:none;
+	margin-top:0px;
+	
+}
+ul li
+{
+font-family:Calibri,Georgia,Serif;
+font-size:18px;	
+}
+
+ul li a
+{
+display:block;
+background-color:blue;
+color:white;
+height:30px;
+width:150px;
+padding-left:10px;
+}
+ul li a:hover 
+{
+	-moz-transform:(-5deg);
+	-moz-box-shadow:10px 10px 20px 20px #B5762A;
+	-webkit-transform:rotate(-5deg);
+	-webkit-box-shadow:10px 10px 20px 20px #2F200C;
+	
+	transform:rotate(4deg);
+    box-shadow:10px 10px 20px 20px #7D490A;
+    margin-left:10px;		
+}
+
+table td div 
+{
+width:500px;
+height:220px;
+background-color:#616455;
+border:3px solid #5C0CA2;
+border-radius:15px 0px 20px 0px ;
+margin:10px;
+padding:15px;
+box-shadow:2px 2px 5px #C0C2C3;
+}
+
+.encabezado
+{
+width:1024px;
+height:100px;
+background-color:white;	
+	
+}
+.piedepagina
+{
+width:100%;
+height:100px;
+background-color:#272F18;	
+	
+}
